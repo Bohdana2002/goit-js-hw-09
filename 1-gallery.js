@@ -7,5 +7,5 @@
         />
       </a>
     </li>
-  `).join(``);n.gallery.insertAdjacentHTML(`beforeend`,r),new e(`.gallery a`,{captionsData:`alt`,captionPosition:`Bottom`,captionDelay:250});
+  `).join(``);n.gallery.insertAdjacentHTML(`beforeend`,r),new e(`.gallery a`,{captionsData:`alt`,captionPosition:`bottom`,captionDelay:250});
 //# sourceMappingURL=1-gallery.js.map
