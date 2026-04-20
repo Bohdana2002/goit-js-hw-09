@@ -87,6 +87,6 @@ const markup = images
 refs.gallery.insertAdjacentHTML('beforeend', markup);
 new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
-  captionPosition: 'Bottom',
+  captionPosition: 'bottom',
   captionDelay: 250,
 });

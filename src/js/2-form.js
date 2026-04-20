@@ -25,6 +25,8 @@ refs.form.addEventListener('submit', event => {
     console.log(formData);
     localStorage.removeItem('feedback-form-state');
     refs.form.reset();
+    formData.email = '';
+    formData.message = '';
   }
   event.preventDefault();
 });
